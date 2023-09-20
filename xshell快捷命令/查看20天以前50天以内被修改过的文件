@@ -1,0 +1,1 @@
+find ./ -mtime +20 -a -mtime -50 -type f

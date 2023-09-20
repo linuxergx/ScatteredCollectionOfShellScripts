@@ -1,0 +1,1 @@
+./flume-ng agent -c ../conf -f ../conf/init.loggerSink.conf -n a1 -Dfulme.root.logger=INFO,console

@@ -1,0 +1,1 @@
+./kafka-topics.sh  --describe --zookeeper node1:2181 --topic MOMO_MSG

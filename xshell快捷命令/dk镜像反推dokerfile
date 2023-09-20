@@ -1,0 +1,1 @@
+docker  history dockername:tag --format "table {{.ID}}\t{{.CreatedBy}}" --no-trunc

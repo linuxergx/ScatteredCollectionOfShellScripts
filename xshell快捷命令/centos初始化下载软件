@@ -1,0 +1,1 @@
+yum install gcc gcc-c++ unzip lsof  sysstat iotop autoconf make  libtool expat-devel libxml2-devel  bash-completion telnet tree lrzsz wget net-tools vim* -y

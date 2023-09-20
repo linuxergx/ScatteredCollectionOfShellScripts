@@ -1,0 +1,1 @@
+nohup ./kafka-server-start.sh ../config/server.properties 2>&1 &
