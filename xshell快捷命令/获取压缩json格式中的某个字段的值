@@ -1,0 +1,5 @@
+sed 's/,/\n/g' | grep "preferred_username" | sed 's/:/\n/g' | sed '1d' | sed 's/}//g'
+
+sed 's/,/\n/g'  : 将压缩的json中的,号换成换行符 就成了美化后的格式
+sed 's/:/\n/g' | sed '1d'   : 找到需要的key之后只显示了一行 然后将: 也换成了换行符 然后不显示第一行 
+sed 's/}//g': 最后一个sed命令的意思是将最后的花括号“}”用空字符替换，最终得到我们想要的值。
